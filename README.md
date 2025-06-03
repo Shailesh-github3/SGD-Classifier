@@ -20,6 +20,8 @@ Developed by: Shailesh Kumar G
 RegisterNumber:  212224220093
 */
 ```
+
+```
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
@@ -58,6 +60,8 @@ plt.xlabel("Predicted Label")
 plt.ylabel("True Label")
 plt.title("Confusion Matrix")
 plt.show()
+```
+
 
 ## Output:
 ![prediction of iris species using SGD Classifier](sam.png)
